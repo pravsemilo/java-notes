@@ -35,7 +35,7 @@ public class FileProcessor {
 	}
 }
 ```
-* Always invoke `super.finalize()` preferrable in a `finally` block.
+* Always invoke `super.finalize()` preferrably in a `finally` block.
 ```java
 import java.io.*;
 
