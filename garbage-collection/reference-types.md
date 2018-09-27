@@ -10,10 +10,10 @@
 * Generic
 * Superclass of all the specific reference classes.
 ## Methods
-	* `public T get()`
-	* `public void clear()`
-	* `public boolean enqueue()` - Add this reference object to the reference queue with which it is registered.
-	* `public boolean isEnqueued()` 
+* `public T get()`
+* `public void clear()`
+* `public boolean enqueue()` - Add this reference object to the reference queue with which it is registered.
+* `public boolean isEnqueued()` 
 # Reference Types
 * `Strong References`
 * `SoftReference`
