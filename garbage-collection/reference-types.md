@@ -28,4 +28,3 @@ Employee resurrectedEmp = softRef.get();				// In case the garbase collector has
 * When using a `get()` method, it always returns null.
 # References
 * https://dzone.com/articles/reference-types-java-part-1
-* https://plumbr.io/handbook/gc-tuning-in-practice/weak-soft-and-phantom-references
