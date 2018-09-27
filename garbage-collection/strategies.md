@@ -18,4 +18,4 @@
 * Reclaim the unmarked i.e. dead objects.
 * Requires freezing of program execution as interconnection of objects may change during the marking phase.
 # References
-* The Java Programming Language
+* The Java Programming Language - Ken Arnold, James Gosling, David Holmes
