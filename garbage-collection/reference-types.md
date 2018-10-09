@@ -23,7 +23,7 @@
 * An object is strongly reachable if it can be reached through at least one chain of strong references i.e. the normal references.
 ```java
 Employee emp = new Employee();		// Creating a strong reference.
-emp = null;				// Singalling the garbage collector that the Employee object has no strong references and hence elgible for garbage collection.
+emp = null;				// Signalling the garbage collector that the Employee object has no strong references and hence elgible for garbage collection.
 ```
 ## SoftReference
 * An object is softly reachable if it is not strongly reachable, but it is reachable through at least one chain containing a soft reference.
