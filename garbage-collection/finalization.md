@@ -1,7 +1,7 @@
 # `finalize()`
 * You can implement a `finalize()` method that is executed before an object's space is reclaimed.
 * Invoked by GC after it determines that this object is no longer reachable.
-* Inovked at most once per object.
+* Invoked at most once per object.
 * Execution of this method may make the object reachable. This is called as `resurrection`.
 	* Since `finalize()` is invoked only once per object, resurrection also happens only once.
 * There are no guarantees on when and if at all it will be called.
