@@ -53,9 +53,11 @@
 	* Can clean up unused classes.
 * Dedicated per classloader storage area.
 * Allocated from native memory.
+	* Limited by the amount of available native memory.
 ## Issues With Perm Gen
 * Cannot be expanded at runtime.
 * Is not garbage collected.
+* Contigous with Java heap.
 # References
 * https://www.journaldev.com/2856/java-jvm-memory-model-memory-management-in-java
 * https://www.baeldung.com/java-permgen-metaspace
