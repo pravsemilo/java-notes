@@ -39,10 +39,23 @@
 * Per-class runtime representation of constant pool in a class.
 * Runtime constants
 * Static Methods 
+* From Java 7 onwards, static objects are stored in heap space.
 ## Memory Pool
 * Pool of immutable objects.
+* From Java 7 onwards, Java String pool is stored in heap space.
 ## Java Stack Memory
 * Used for execution of a thread.
 * Contains method specific values that are short-lived and references to objects in the heap that are getting referred from the method.
+# Metaspace
+* Starting with Java 8, `Metaspace` replaces the `Perm Gen`.
+* Grows automatically by default.
+* Classes and associated metadata lifetime matches that of the classloader's.
+	* Can clean up unused classes.
+* Dedicated per classloader storage area.
+* Allocated from native memory.
+## Issues With Perm Gen
+* Cannot be expanded at runtime.
+* Is not garbage collected.
 # References
 * https://www.journaldev.com/2856/java-jvm-memory-model-memory-management-in-java
+* https://www.baeldung.com/java-permgen-metaspace
