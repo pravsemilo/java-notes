@@ -24,11 +24,13 @@
 * Takes less time compared to `Major GC`.
 # Old Generation
 * Contains long lived objects that have survived many rounds of `Minor GC`.
+* Also called `Tenured Space`.
 ## Major GC
 * Performed when `Old Generation` is full.
 * Takes longer time.
 # Permanent Generation
 * Also called `Perm Gen`.
+* Not part of heap.
 * Contains application metadata required by JVM.
 * `Perm Gen` objects are garbage collected in a `full garbage collection`.
 ## Method Area
