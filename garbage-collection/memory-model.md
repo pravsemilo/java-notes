@@ -35,7 +35,7 @@
 * `Perm Gen` objects are garbage collected in a `full garbage collection`.
 ## Method Area
 * Stores class structure, constants, static variables and code for methods and constructors.
-### Runtime Constant Pool
+## Runtime Constant Pool
 * Per-class runtime representation of constant pool in a class.
 * Runtime constants
 * Static Methods 
