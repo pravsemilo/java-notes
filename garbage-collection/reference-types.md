@@ -1,5 +1,5 @@
 # Reference Objects
-* An object whose sole purpose is to maintain a reference to another object called the `referent`.
+* An object whose sole purpose is to maintain a reference to another object is called the `referent`.
 * Instead of maintaining a direct reference, you maintain a direct reference to a reference object which wraps the actual object.
 * If reference object is the only reference to an object, GC can decide whether to reclaim the object or not.
 * If the object is reclaimed, the reference object is cleared.
